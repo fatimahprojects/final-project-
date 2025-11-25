@@ -6,15 +6,22 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div id="image" aria-label="Büyük resim alanı">
-        Hover over an image below to display here.
+    <h1>My Crochet Creations</h1>
+    <div id="image" aria-label="Large image display area">
+        Here you can explore my crochet works! Hover over any image below to display it here
     </div>
+    <div class="gallery">
+        <div class="row">
     <img class="c" src="crochet_octopus_keychain.jpg" alt="crochet octopus keychain" onmouseover="upDate(this)" onmouseout="unDo()" tabindex="0" onkeydown="if(event.key === 'Enter') { upDate(this); }">
     <img class="c" src="Mini_crochet_octopus_plushies.jpg" alt="Mini crochet octopus plushies" onmouseover="upDate(this)" onmouseout="unDo()" tabindex="0" onkeydown="if(event.key === 'Enter') { upDate(this); }">
     <img class="c" src="Pink _crochet_coaster.jpg" alt="Pink crochet coaster with a heart-shaped center" onmouseover="upDate(this)" onmouseout="unDo()" tabindex="0" onkeydown="if(event.key === 'Enter') { upDate(this); }">
+        </div>
+        <div class="row">
     <img class="c" src="Crochet_sunflower_coaster.jpg" alt="Crochet sunflower coaster" onmouseover="upDate(this)" onmouseout="unDo()" tabindex="0" onkeydown="if(event.key === 'Enter') { upDate(this); }">
     <img class="c" src="Crochet_granny_square_coaster.jpg" alt="Crochet granny square coaster" onmouseover="upDate(this)" onmouseout="unDo()" tabindex="0" onkeydown="if(event.key === 'Enter') { upDate(this); }">
     <img class="c" src="Chunky_Puffy_Yarn_Blanket.jpg" alt="Chunky Puffy Yarn Blanket" onmouseover="upDate(this)" onmouseout="unDo()" tabindex="0" onkeydown="if(event.key === 'Enter') { upDate(this); }">
-    <script src="script.js"></script>
+        </div>
+     </div>
+     <script src="script.js"></script>
 </body>
 </html>
