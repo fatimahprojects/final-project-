@@ -25,6 +25,15 @@ document.querySelectorAll('img').forEach(img => {
     img.addEventListener('focus', () => upDate(img));
     img.addEventListener('blur', () => unDo());
 });
+document.querySelectorAll('img').forEach((img, index) => {
+    img.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const imageDiv = document.getElementById('image');
+        imageDiv.style.backgroundImage = `url(${images[index]})`;
+        imageDiv.textContent = alts[index];
+        currentIndex = index + 1;
+    });
+});
 const images = [
     "crochet_octopus_keychain.jpg",
     "Mini_crochet_octopus_plushies.jpg",
