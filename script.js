@@ -1,15 +1,7 @@
-function upDate(previewPic){   document.getElementById('image').style.backgroundImage = `url(${previewPic.src})`;
-document.getElementById('image').textContent = previewPic.alt;
-}
-
-function unDo(){
-document.getElementById('image').style.backgroundImage = "url('')";
-document.getElementById('image').textContent = "Hover over an image below to display here.";
-}
 const images = [
     "crochet_octopus_keychain.jpg",
     "Mini_crochet_octopus_plushies.jpg",
-    "Pink _crochet_coaster.jpg",
+    "Pink_crochet_coaster.jpg",
     "Crochet_sunflower_coaster.jpg",
     "Crochet_granny_square_coaster.jpg",
     "Chunky_Puffy_Yarn_Blanket.jpg"
@@ -25,6 +17,15 @@ const alts = [
 ];
 
 let currentIndex = 0;
+
+document.querySelectorAll('.row img').forEach((img, index) => {
+    img.addEventListener('click', (e) => {
+        e.stopPropagation();
+        document.getElementById('image').style.backgroundImage = `url(${images[index]})`;
+        document.getElementById('image').textContent = alts[index];
+        currentIndex = index + 1;
+    });
+});
 
 document.body.addEventListener('click', () => {
     const imageDiv = document.getElementById('image');
