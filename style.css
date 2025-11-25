@@ -8,7 +8,7 @@ body {
         h1 {
             font-size: 2.5em;
             margin-bottom: 20px;
-            color: #9370DB; /* Lavender */
+            color: #9370DB;
             text-align: center;
             font-weight: bold;
         }
@@ -19,7 +19,7 @@ body {
             height: 650px;
             border: 5px solid black;
             margin: 0 auto 25px auto;
-            background: linear-gradient(135deg, #FFB6C1, #9370DB); /* Pink to Lavender gradient */
+            background: linear-gradient(135deg, #FFB6C1, #9370DB);
             color: #FFFFFF;
             text-align: center;
             font-size: 1.3em;
