@@ -9,7 +9,7 @@ document.getElementById('image').textContent = "Hover over an image below to dis
 const images = [
     "crochet_octopus_keychain.jpg",
     "Mini_crochet_octopus_plushies.jpg",
-    "Pink_crochet_coaster.jpg",
+    "Pink _crochet_coaster.jpg",
     "Crochet_sunflower_coaster.jpg",
     "Crochet_granny_square_coaster.jpg",
     "Chunky_Puffy_Yarn_Blanket.jpg"
