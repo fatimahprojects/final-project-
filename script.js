@@ -1,7 +1,7 @@
 const images = [
     "crochet_octopus_keychain.jpg",
     "Mini_crochet_octopus_plushies.jpg",
-    "Pink _crochet_coaster.jpg",
+    "Pink_crochet_coaster.jpg",
     "Crochet_sunflower_coaster.jpg",
     "Crochet_granny_square_coaster.jpg",
     "Chunky_Puffy_Yarn_Blanket.jpg"
