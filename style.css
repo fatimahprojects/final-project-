@@ -31,5 +31,6 @@ body {
 }
 
 .preview img {
-    width: 95%;
+    width: 400px;
+    height: 400px;
 }
